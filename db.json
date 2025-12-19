@@ -23,6 +23,18 @@
       "content": "Nice to meet you, Scott! How can I assist you today?",
       "id": "70a9b0ae-a6ec-4523-a4dd-81ce5c27e080",
       "createdAt": "2024-11-05T17:40:29.361Z"
+    },
+    {
+      "role": "user",
+      "content": "How much water do I have to drink today?",
+      "id": "59409f94-6be3-49ba-b7cc-c9d01907f171",
+      "createdAt": "2025-12-19T21:29:34.359Z"
+    },
+    {
+      "role": "assistant",
+      "content": "The amount of water you need to drink can vary based on several factors, including your age, sex, weight, activity level, and overall health. A common recommendation is to aim for about 8 cups (64 ounces) of water per day, but some guidelines suggest that men should aim for about 3.7 liters (or about 13 cups) and women about 2.7 liters (or about 9 cups) of total water intake from all beverages and foods.\n\nA good way to gauge your hydration needs is to listen to your body. Drink when you're thirsty, and pay attention to the color of your urine; pale yellow usually indicates proper hydration, while dark yellow may suggest you need to drink more.\n\nIf you have specific health conditions or are very active, you may need to adjust your intake. It's always a good idea to consult with a healthcare professional for personalized advice.",
+      "id": "f25391e6-08d3-4695-a566-08c15d68a0ff",
+      "createdAt": "2025-12-19T21:29:38.413Z"
     }
   ]
 }
