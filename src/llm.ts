@@ -1,6 +1,7 @@
 import type { AIMessage } from '../types'
 import { openai } from './ai'
 
+// Grab entire conversation as messages and send to LLM, for contextual response
 export const runLLM = async ({ messages }: { messages: AIMessage[] }) => {
   const response = await openai.chat.completions.create({
     model: 'gpt-4o-mini',

@@ -18,3 +18,11 @@ const response = await runLLM({
 await addMessages([{ role: 'assistant', content: response }])
 
 console.log(response)
+
+/* 
+ Essentially what we're doing here is saving the entire conversation history to a 
+ JSON file using lowdb, and then sending that entire history to the LLM with
+  each request. This allows the LLM to have full context of the conversation,
+    enabling it to generate more relevant and coherent responses.
+
+*/
