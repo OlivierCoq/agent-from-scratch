@@ -34,7 +34,6 @@ export const runAgent = async ({
 
     logMessage(response)
 
-    // Only responds with content when finished:
     if (response.content) {
       loader.stop()
       return getMessages()

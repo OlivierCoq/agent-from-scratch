@@ -55,8 +55,4 @@ export const saveToolResponse = async (
       tool_call_id: toolCallId,
     },
   ])
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> step/4
