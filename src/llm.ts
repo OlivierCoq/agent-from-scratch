@@ -17,7 +17,7 @@ export const runLLM = async ({
     messages,
     tools: formattedTools,
     tool_choice: 'auto',
-    parallel_tool_calls: false,
+    parallel_tool_calls: false, // Disable parallel tool calls. Set to true to enable parallel execution of tools (yucky for stateful tools).
   })
 
   return response.choices[0].message

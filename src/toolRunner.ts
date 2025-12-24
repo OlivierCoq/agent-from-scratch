@@ -1,6 +1,10 @@
 import type OpenAI from 'openai'
 
+<<<<<<< HEAD
 const getWeather = () => `hot, 90deg`
+=======
+const getWeather = (input: any) => `hot, 90deg`
+>>>>>>> step/4
 
 export const runTool = async (
   toolCall: OpenAI.Chat.Completions.ChatCompletionMessageToolCall,
@@ -17,4 +21,8 @@ export const runTool = async (
     default:
       throw new Error(`Unknown tool: ${toolCall.function.name}`)
   }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> step/4

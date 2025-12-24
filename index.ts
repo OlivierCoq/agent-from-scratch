@@ -11,7 +11,11 @@ if (!userMessage) {
 
 const weatherTool = {
   name: 'get_weather',
+<<<<<<< HEAD
   description: `use this to get the weather.`,
+=======
+  description: `use this to get the weather`,
+>>>>>>> step/4
   parameters: z.object({
     reasoning: z.string().describe('why did you pick this tool?'),
   }),
