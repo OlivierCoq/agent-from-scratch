@@ -1,1 +1,32 @@
-{ "messages": [] }
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "Who's the lead guitarist in System of a Down?",
+      "id": "3ec55ddc-9ec2-4066-915f-4ba114ec99aa",
+      "createdAt": "2025-12-24T21:28:58.336Z"
+    },
+    {
+      "role": "assistant",
+      "content": "The lead guitarist of System of a Down is Daron Malakian. He is also one of the band's founding members and contributes to vocals and songwriting.",
+      "refusal": null,
+      "annotations": [],
+      "id": "0b136bea-fe6d-4e1d-866b-06e691de9d65",
+      "createdAt": "2025-12-24T21:28:59.537Z"
+    },
+    {
+      "role": "user",
+      "content": "How about Parcels?",
+      "id": "36f0d8e6-1ca1-43bf-a7df-e80e23e71c4b",
+      "createdAt": "2025-12-24T21:39:57.882Z"
+    },
+    {
+      "role": "assistant",
+      "content": "The lead guitarist of Parcels is Jules Crommelin. Parcels is an Australian band known for their unique blend of disco, funk, and pop music.",
+      "refusal": null,
+      "annotations": [],
+      "id": "8d698c9f-1333-47cc-ae43-d81727918b53",
+      "createdAt": "2025-12-24T21:39:59.403Z"
+    }
+  ]
+}
