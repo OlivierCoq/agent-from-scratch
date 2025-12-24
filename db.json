@@ -1,18 +1,1 @@
-{
-  "messages": [
-    {
-      "role": "user",
-      "content": "What's the weather?",
-      "id": "e7b12374-87f1-47ac-af60-c5d6c765e67f",
-      "createdAt": "2025-12-22T22:06:11.030Z"
-    },
-    {
-      "role": "assistant",
-      "content": "Could you please specify the location for which you would like to know the weather?",
-      "refusal": null,
-      "annotations": [],
-      "id": "0c51605f-7e47-4cf4-8786-41d260f5c273",
-      "createdAt": "2025-12-22T22:06:11.825Z"
-    }
-  ]
-}
+{ "messages": [] }
