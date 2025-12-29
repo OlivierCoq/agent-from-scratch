@@ -27,6 +27,297 @@
       "annotations": [],
       "id": "8d698c9f-1333-47cc-ae43-d81727918b53",
       "createdAt": "2025-12-24T21:39:59.403Z"
+    },
+    {
+      "role": "user",
+      "content": "Tell me a Dad joke\n'\n",
+      "id": "9776098d-bb2c-4bfa-a287-8cf321cfff4d",
+      "createdAt": "2025-12-29T15:51:04.706Z"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_nuKDVnLplDWjnOfwv9HlS1jM",
+          "type": "function",
+          "function": {
+            "name": "dad_joke",
+            "arguments": "{}"
+          }
+        }
+      ],
+      "refusal": null,
+      "annotations": [],
+      "id": "d12fe8af-a298-431e-8ce7-c54a6561999b",
+      "createdAt": "2025-12-29T15:51:05.982Z"
+    },
+    {
+      "role": "tool",
+      "content": "I got a reversible jacket for Christmas, I can't wait to see how it turns out.",
+      "tool_call_id": "call_nuKDVnLplDWjnOfwv9HlS1jM",
+      "id": "ab8c9b1d-0edd-4ca3-a9b1-b090e3f0b901",
+      "createdAt": "2025-12-29T15:51:06.180Z"
+    },
+    {
+      "role": "assistant",
+      "content": "Here's a dad joke for you: I got a reversible jacket for Christmas, I can't wait to see how it turns out.",
+      "refusal": null,
+      "annotations": [],
+      "id": "20884229-e94f-4d73-8294-ffc521f6bbd9",
+      "createdAt": "2025-12-29T15:51:07.558Z"
+    },
+    {
+      "role": "user",
+      "content": "How about something cool from Reddit?",
+      "id": "0ad43949-e70e-46b0-a6e0-afc3fe3520f5",
+      "createdAt": "2025-12-29T16:05:36.105Z"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_5MzLVPPkmqeVUgSmxbenZAFg",
+          "type": "function",
+          "function": {
+            "name": "reddit",
+            "arguments": "{}"
+          }
+        }
+      ],
+      "refusal": null,
+      "annotations": [],
+      "id": "1aac3cdb-a39b-40cf-84ca-f9fdee04bef0",
+      "createdAt": "2025-12-29T16:05:37.389Z"
+    },
+    {
+      "role": "tool",
+      "content": "[\n  {\n    \"title\": \"/r/aww is going OC-only\",\n    \"link\": \"https://www.reddit.com/r/aww/comments/171dxph/raww_is_going_oconly/\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"AutoModerator\",\n    \"upvotes\": 2486\n  },\n  {\n    \"title\": \"Shelter said she wasn't a cuddler, she disagrees\",\n    \"link\": \"https://i.redd.it/zezvzj68l2ag1.jpeg\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"Chc36\",\n    \"upvotes\": 13433\n  },\n  {\n    \"title\": \"My cutie\",\n    \"link\": \"https://i.redd.it/8oi8251g64ag1.jpeg\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"Dreamy_Shadows\",\n    \"upvotes\": 1349\n  },\n  {\n    \"title\": \"Just a couple of illegal smols.\",\n    \"link\": \"https://i.redd.it/qs94t8br84ag1.jpeg\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"hoothin\",\n    \"upvotes\": 1034\n  },\n  {\n    \"title\": \"My pup and housemate's cat cuddling\",\n    \"link\": \"https://i.imgur.com/XSR6EeQ.jpeg\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"OminousHum\",\n    \"upvotes\": 3833\n  },\n  {\n    \"title\": \"It’s the best Xmas gift I ever received 🥹 Thanks to my Parents 🫶🏻\",\n    \"link\": \"https://i.redd.it/t4mh6qzuq5ag1.jpeg\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"Rosa_Lirosa\",\n    \"upvotes\": 287\n  },\n  {\n    \"title\": \"I have to gain his trust again after I dared to be away for one weekend.\",\n    \"link\": \"https://i.redd.it/cjwoe744o1ag1.jpeg\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"zzabe\",\n    \"upvotes\": 3200\n  },\n  {\n    \"title\": \"That Golden Retriever Smile That Fixes Literally Everything\",\n    \"link\": \"https://i.redd.it/yhxh2glb6z9g1.jpeg\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"Mab_12\",\n    \"upvotes\": 17205\n  },\n  {\n    \"title\": \"sirius lookin handsome at golden hour\",\n    \"link\": \"https://i.redd.it/5jstikucf0ag1.png\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"iammatt666\",\n    \"upvotes\": 4696\n  },\n  {\n    \"title\": \"My bed has been stolen by a cloud\",\n    \"link\": \"https://www.reddit.com/gallery/1pyhenj\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"Arafat_h_saymon\",\n    \"upvotes\": 516\n  },\n  {\n    \"title\": \"My cats reluctantly spreading holiday cheer 🎄❤️\",\n    \"link\": \"https://i.redd.it/mrktagqbd5ag1.png\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"Low-Tackle7606\",\n    \"upvotes\": 208\n  },\n  {\n    \"title\": \"Outside Cat Coming In On A Cold Winter's Day\",\n    \"link\": \"https://v.redd.it/3sheqv5yi0ag1\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"KittyFlynn\",\n    \"upvotes\": 3601\n  },\n  {\n    \"title\": \"Look at this mini donk floofiness 🥰\",\n    \"link\": \"https://i.redd.it/vurzx6a2j4ag1.jpeg\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"snean3\",\n    \"upvotes\": 274\n  },\n  {\n    \"title\": \"[oc] When the water’s so clear, you can see her little paws paddling\",\n    \"link\": \"https://v.redd.it/wx01iam145ag1\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"_SWANS_CAN_BE_GAY_\",\n    \"upvotes\": 174\n  },\n  {\n    \"title\": \"He fell asleep hugging his rubber chicken and I can't handle it 🥹​\",\n    \"link\": \"https://i.redd.it/5vlqpye1lz9g1.jpeg\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"Tr33b00R\",\n    \"upvotes\": 5474\n  },\n  {\n    \"title\": \"My daughter's yearly reunion with this cute little critter\",\n    \"link\": \"https://i.redd.it/y7gfuz8i62ag1.jpeg\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"Tooleater\",\n    \"upvotes\": 1029\n  },\n  {\n    \"title\": \"Ellie is pleased with this offering 🩷\",\n    \"link\": \"https://v.redd.it/fmqh17sge5ag1\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"ProudnotLoud\",\n    \"upvotes\": 140\n  },\n  {\n    \"title\": \"This guy was in my parents balcony\",\n    \"link\": \"https://i.redd.it/4fkgvys4x4ag1.jpeg\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"hvera51\",\n    \"upvotes\": 133\n  },\n  {\n    \"title\": \"Momma and baby cat after adoption vs. momma and adult baby cat, a year latter.\",\n    \"link\": \"https://www.reddit.com/gallery/1py6g3t\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"Dramatic_Olive3110\",\n    \"upvotes\": 1272\n  },\n  {\n    \"title\": \"HELLO\",\n    \"link\": \"https://i.redd.it/fe4o7zc5d5ag1.jpeg\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"user_no-8848\",\n    \"upvotes\": 94\n  },\n  {\n    \"title\": \"Best of friends\",\n    \"link\": \"https://i.redd.it/biy6lfpwr5ag1.jpeg\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"porcelainsucubuss\",\n    \"upvotes\": 59\n  },\n  {\n    \"title\": \"My babie\",\n    \"link\": \"https://www.reddit.com/gallery/1py8qqw\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"caffeineaddictte\",\n    \"upvotes\": 576\n  },\n  {\n    \"title\": \"Someone was grumpy this morning lol\",\n    \"link\": \"https://i.redd.it/4bshk8q1j2ag1.jpeg\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"Z-Butta\",\n    \"upvotes\": 328\n  },\n  {\n    \"title\": \"27th was my Cakeday, so here's Mo regretting that he allowed me to put a Christmas sweater on him\",\n    \"link\": \"https://v.redd.it/gkkq67cjx0ag1\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"oh_bruddah\",\n    \"upvotes\": 817\n  },\n  {\n    \"title\": \"My idiot son (lovingly)\",\n    \"link\": \"https://www.reddit.com/gallery/1pye8i9\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"Impossible_Tower1039\",\n    \"upvotes\": 227\n  }\n]",
+      "tool_call_id": "call_5MzLVPPkmqeVUgSmxbenZAFg",
+      "id": "612b6078-c973-4c4b-a9ee-7be203ca6905",
+      "createdAt": "2025-12-29T16:05:38.082Z"
+    },
+    {
+      "role": "assistant",
+      "content": "Here are some cool posts from Reddit's r/aww subreddit:\n\n1. **[Shelter said she wasn't a cuddler, she disagrees](https://i.redd.it/zezvzj68l2ag1.jpeg)** - Upvotes: 13,433\n2. **[That Golden Retriever Smile That Fixes Literally Everything](https://i.redd.it/yhxh2glb6z9g1.jpeg)** - Upvotes: 17,205\n3. **[My pup and housemate's cat cuddling](https://i.imgur.com/XSR6EeQ.jpeg)** - Upvotes: 3,833\n4. **[He fell asleep hugging his rubber chicken and I can't handle it 🥹​](https://i.redd.it/5vlqpye1lz9g1.jpeg)** - Upvotes: 5,474\n5. **[Momma and baby cat after adoption vs. momma and adult baby cat, a year later.](https://www.reddit.com/gallery/1py6g3t)** - Upvotes: 1,272\n\nFeel free to check them out for some adorable content!",
+      "refusal": null,
+      "annotations": [],
+      "id": "9c1e55e4-9ba3-43a3-b309-1c7e04977938",
+      "createdAt": "2025-12-29T16:05:44.278Z"
+    },
+    {
+      "role": "user",
+      "content": "Something cool from Reddit again",
+      "id": "40e83711-00b3-48df-a857-4337c73c3d87",
+      "createdAt": "2025-12-29T16:10:11.576Z"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_Ie4Vo2OykkIkSWhNNSTfBhx2",
+          "type": "function",
+          "function": {
+            "name": "reddit",
+            "arguments": "{}"
+          }
+        }
+      ],
+      "refusal": null,
+      "annotations": [],
+      "id": "73ac6616-65e3-439b-a13e-7893312c68ea",
+      "createdAt": "2025-12-29T16:10:12.409Z"
+    },
+    {
+      "role": "tool",
+      "content": "[\n  {\n    \"title\": \"Weekend Wrapup\",\n    \"link\": \"https://www.reddit.com/r/nfl/comments/1pyog5b/weekend_wrapup/\",\n    \"subreddit\": \"r/nfl\",\n    \"author\": \"AutoModerator\",\n    \"upvotes\": 12\n  },\n  {\n    \"title\": \"[Highlight] CHI vs SF - Mike Tirco calls out Cris Collinsworth for bringing up Patrick Mahomes\",\n    \"link\": \"https://v.redd.it/5zmoh5lsc2ag1\",\n    \"subreddit\": \"r/nfl\",\n    \"author\": \"Fusir\",\n    \"upvotes\": 11312\n  },\n  {\n    \"title\": \"[Highlight] Niners win on last second stop\",\n    \"link\": \"https://v.redd.it/mtz5x4z8n2ag1\",\n    \"subreddit\": \"r/nfl\",\n    \"author\": \"nfl\",\n    \"upvotes\": 5317\n  },\n  {\n    \"title\": \"[Highlight] Purdy scrambles forever for a Houdini TD\",\n    \"link\": \"https://v.redd.it/vfzpkpmvb2ag1\",\n    \"subreddit\": \"r/nfl\",\n    \"author\": \"Large_banana_hammock\",\n    \"upvotes\": 6282\n  },\n  {\n    \"title\": \"[Schefter] 49ers now are one win away from becoming the NFC’s No. 1 seed.\",\n    \"link\": \"https://bsky.app/profile/nflnewsposter.bsky.social/post/3mb3z3sgrix2l\",\n    \"subreddit\": \"r/nfl\",\n    \"author\": \"MembershipSingle7137\",\n    \"upvotes\": 4707\n  },\n  {\n    \"title\": \"49ers just beat the Bears without Kittle, Williams, Aiyuk, Bosa, or Warner. Shanahan for coach of the year.\",\n    \"link\": \"https://www.reddit.com/r/nfl/comments/1pycyhf/49ers_just_beat_the_bears_without_kittle_williams/\",\n    \"subreddit\": \"r/nfl\",\n    \"author\": \"GreenSnakes_\",\n    \"upvotes\": 3965\n  },\n  {\n    \"title\": \"The New York Jets are one week away from NFL history. Every other team in NFL history has registered at least one interception in a season - they have zero (this year, every other team has at least six). Opposing QBs have 32 TDs and no picks, playing at an MVP level\",\n    \"link\": \"https://www.statmuse.com/nfl/ask/nfl-team-leaders-fewest-interceptions\",\n    \"subreddit\": \"r/nfl\",\n    \"author\": \"Pickleskennedy1\",\n    \"upvotes\": 872\n  },\n  {\n    \"title\": \"[Schefter] With Buffalo’s loss, the Patriots now have clinched the AFC East title.\",\n    \"link\": \"https://www.espn.com/contributor/adam-schefter/c09709bb92a24\",\n    \"subreddit\": \"r/nfl\",\n    \"author\": \"MembershipSingle7137\",\n    \"upvotes\": 7710\n  },\n  {\n    \"title\": \"[Highlight] Caleb Williams takes advantage of free play, fires TD to Colston Loveland\",\n    \"link\": \"https://v.redd.it/qz84xidtz1ag1\",\n    \"subreddit\": \"r/nfl\",\n    \"author\": \"nfl\",\n    \"upvotes\": 5169\n  },\n  {\n    \"title\": \"[Norlander] Crazy stat from NBC/Mike Tirico just now: Tonight's Bears-49ers game is only the second time ever an NFL game has been tied 7-7, 14-14, 21-21, 28-28 and 35-35\",\n    \"link\": \"https://bsky.app/profile/norlander.bsky.social/post/3mb3wfujpsc2m\",\n    \"subreddit\": \"r/nfl\",\n    \"author\": \"TomasRoncero\",\n    \"upvotes\": 3574\n  },\n  {\n    \"title\": \"Brock Purdy since returning from injury: 1454 yards, 16 passing TDs, 3 rushing TDs, 5 INTs, 70.7% completion rate, 111.5 passer rating. The 49ers are 6-0.\",\n    \"link\": \"https://www.reddit.com/r/nfl/comments/1pye0uz/brock_purdy_since_returning_from_injury_1454/\",\n    \"subreddit\": \"r/nfl\",\n    \"author\": \"Dependent-Effect6077\",\n    \"upvotes\": 2414\n  },\n  {\n    \"title\": \"Philip Rivers on the possibility that today was his last NFL game: \\\"If it's the last one, it's the last one. I thought the last one was in Buffalo (in January 2021)… So certainly, if it is, I got three bonus games I never saw coming and couldn’t be more thankful I got the opportunity.”\",\n    \"link\": \"https://www.colts.com/news/if-week-17-was-philip-rivers-final-game-colts-teammates-deeply-appreciate-never-forget-44-year-old-qb-s-willingness-to-help-in-2025\",\n    \"subreddit\": \"r/nfl\",\n    \"author\": \"Goosedukee\",\n    \"upvotes\": 7533\n  },\n  {\n    \"title\": \"[Grosbars] The Los Angeles Rams have been eliminated from NFC West contention\",\n    \"link\": \"https://bsky.app/profile/adamgrosbard.bsky.social/post/3mb3z2xthuc2h\",\n    \"subreddit\": \"r/nfl\",\n    \"author\": \"Joementum2004\",\n    \"upvotes\": 2309\n  },\n  {\n    \"title\": \"[Highlight] Myles Garrett on today's game vs. Pittsburgh: “To an extent, they were more worried about keeping me away from Aaron (Rodgers) than getting the win. That’s what came back to bite them.”\",\n    \"link\": \"https://v.redd.it/s155tzm1x0ag1\",\n    \"subreddit\": \"r/nfl\",\n    \"author\": \"BreakfastTop6899\",\n    \"upvotes\": 7613\n  },\n  {\n    \"title\": \"[Highlight] Philip Rivers nearly kills Josh Hines-Allen with his rocket arm.\",\n    \"link\": \"https://v.redd.it/7qvtj6rum1ag1\",\n    \"subreddit\": \"r/nfl\",\n    \"author\": \"Roselucky777\",\n    \"upvotes\": 4065\n  },\n  {\n    \"title\": \"[Schefter] Baltimore will play at Pittsburgh in Week 18 for the AFC North title.\",\n    \"link\": \"https://www.espn.com/contributor/adam-schefter/ff86680459bc0\",\n    \"subreddit\": \"r/nfl\",\n    \"author\": \"Goosedukee\",\n    \"upvotes\": 9638\n  },\n  {\n    \"title\": \"Tonight, Caleb Williams became the first QB in Bears history to start 16 games in the same season more than once\",\n    \"link\": \"https://www.reddit.com/r/nfl/comments/1pyfijn/tonight_caleb_williams_became_the_first_qb_in/\",\n    \"subreddit\": \"r/nfl\",\n    \"author\": \"ArmadilloAl\",\n    \"upvotes\": 1164\n  },\n  {\n    \"title\": \"Caleb Williams needs 270 yards next week vs Detroit to get 4k yards on the year\",\n    \"link\": \"https://www.reddit.com/r/nfl/comments/1pycpx8/caleb_williams_needs_270_yards_next_week_vs/\",\n    \"subreddit\": \"r/nfl\",\n    \"author\": \"Kewlerd\",\n    \"upvotes\": 1592\n  },\n  {\n    \"title\": \"[Highlight] Eagles stop Bills on two-point conversion for the win\",\n    \"link\": \"https://v.redd.it/vrme3j02g1ag1\",\n    \"subreddit\": \"r/nfl\",\n    \"author\": \"nfl\",\n    \"upvotes\": 3048\n  },\n  {\n    \"title\": \"[Highlight] Brock Purdy throws a pick 6 to TJ Edwards\",\n    \"link\": \"https://v.redd.it/77w4p0oip1ag1\",\n    \"subreddit\": \"r/nfl\",\n    \"author\": \"TomasRoncero\",\n    \"upvotes\": 2502\n  },\n  {\n    \"title\": \"[Glazer] Communication between Detroit Lions and Seattle Seahawks security last year indicates DK Metcalf asked for that fan to be removed over a very derogatory comment... individuals around him stated and corroborated that the fan was being out of line and had said the derogatory statements.\",\n    \"link\": \"https://www.foxsports.com/stories/nfl/jay-glazer-details-security-report-steelers-wr-dk-metcalf-lions-fan\",\n    \"subreddit\": \"r/nfl\",\n    \"author\": \"awak6n\",\n    \"upvotes\": 8218\n  },\n  {\n    \"title\": \"[Kelly] ‘The Steelers wr core is the worst thing I’ve ever seen. With how many WRs that enter the draft each year, and how much talent there is in this day and age, it is roster malpractice to go into a game with MVS, Scotty Miller and Adam Theilen as your WR corp’\",\n    \"link\": \"https://open.spotify.com/episode/6mNJvLk8M6Ltpja9KhfxBX?si=nBEgyBYCRRyWDn2E23MWdw&amp;t=2762&amp;pi=6nCZTe33S0uB3\",\n    \"subreddit\": \"r/nfl\",\n    \"author\": \"stillstillers\",\n    \"upvotes\": 220\n  },\n  {\n    \"title\": \"The Philadelphia Eagles are the only team Josh Allen has not beaten in his career.\",\n    \"link\": \"https://www.statmuse.com/nfl/ask/josh-allen-record-against-every-team-including-playoffs\",\n    \"subreddit\": \"r/nfl\",\n    \"author\": \"WavesAndSaves\",\n    \"upvotes\": 1893\n  },\n  {\n    \"title\": \"[Highlight] Eagles' Fred Johnson went out to start the game with no helmet on\",\n    \"link\": \"https://v.redd.it/tfooyfzdk0ag1\",\n    \"subreddit\": \"r/nfl\",\n    \"author\": \"kansashotwings\",\n    \"upvotes\": 4152\n  },\n  {\n    \"title\": \"[Highlight] Rodgers catches the Browns with 12 men on the field; tells Tomlin he knows what he's doing\",\n    \"link\": \"https://v.redd.it/h7w0j6oovz9g1\",\n    \"subreddit\": \"r/nfl\",\n    \"author\": \"Large_banana_hammock\",\n    \"upvotes\": 5804\n  }\n]",
+      "tool_call_id": "call_Ie4Vo2OykkIkSWhNNSTfBhx2",
+      "id": "6d7f792d-18ca-4fb4-9d97-60ff87cdc71a",
+      "createdAt": "2025-12-29T16:10:12.993Z"
+    },
+    {
+      "role": "assistant",
+      "content": "Here are some cool posts from Reddit's r/nfl subreddit:\n\n1. **[Highlight] CHI vs SF - Mike Tirco calls out Cris Collinsworth for bringing up Patrick Mahomes** - [Watch here](https://v.redd.it/5zmoh5lsc2ag1) - Upvotes: 11,312\n2. **[Highlight] Niners win on last second stop** - [Watch here](https://v.redd.it/mtz5x4z8n2ag1) - Upvotes: 5,317\n3. **[Highlight] Purdy scrambles forever for a Houdini TD** - [Watch here](https://v.redd.it/vfzpkpmvb2ag1) - Upvotes: 6,282\n4. **[Schefter] With Buffalo’s loss, the Patriots now have clinched the AFC East title.** - [Read more](https://www.espn.com/contributor/adam-schefter/c09709bb92a24) - Upvotes: 7,710\n5. **[Highlight] Eagles stop Bills on two-point conversion for the win** - [Watch here](https://v.redd.it/vrme3j02g1ag1) - Upvotes: 3,048\n\nFeel free to check them out for some exciting NFL highlights and discussions!",
+      "refusal": null,
+      "annotations": [],
+      "id": "1ecffd19-64cd-46c7-929c-e49f815a97cd",
+      "createdAt": "2025-12-29T16:10:20.453Z"
+    },
+    {
+      "role": "user",
+      "content": "Anything about the New York Giants on Reddit?",
+      "id": "91a84760-1a1c-40e9-85f2-6f849da2ff7a",
+      "createdAt": "2025-12-29T16:11:31.962Z"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_8aQwt16N5tdb27mXnrui59zG",
+          "type": "function",
+          "function": {
+            "name": "reddit",
+            "arguments": "{}"
+          }
+        }
+      ],
+      "refusal": null,
+      "annotations": [],
+      "id": "1e32cb8e-3ba0-447d-9f4b-52aee814b8bc",
+      "createdAt": "2025-12-29T16:11:33.295Z"
+    },
+    {
+      "role": "tool",
+      "content": "[\n  {\n    \"title\": \"Weekend Wrapup\",\n    \"link\": \"https://www.reddit.com/r/nfl/comments/1pyog5b/weekend_wrapup/\",\n    \"subreddit\": \"r/nfl\",\n    \"author\": \"AutoModerator\",\n    \"upvotes\": 13\n  },\n  {\n    \"title\": \"[Highlight] CHI vs SF - Mike Tirco calls out Cris Collinsworth for bringing up Patrick Mahomes\",\n    \"link\": \"https://v.redd.it/5zmoh5lsc2ag1\",\n    \"subreddit\": \"r/nfl\",\n    \"author\": \"Fusir\",\n    \"upvotes\": 11329\n  },\n  {\n    \"title\": \"[Highlight] Niners win on last second stop\",\n    \"link\": \"https://v.redd.it/mtz5x4z8n2ag1\",\n    \"subreddit\": \"r/nfl\",\n    \"author\": \"nfl\",\n    \"upvotes\": 5326\n  },\n  {\n    \"title\": \"[Highlight] Purdy scrambles forever for a Houdini TD\",\n    \"link\": \"https://v.redd.it/vfzpkpmvb2ag1\",\n    \"subreddit\": \"r/nfl\",\n    \"author\": \"Large_banana_hammock\",\n    \"upvotes\": 6291\n  },\n  {\n    \"title\": \"[Schefter] 49ers now are one win away from becoming the NFC’s No. 1 seed.\",\n    \"link\": \"https://bsky.app/profile/nflnewsposter.bsky.social/post/3mb3z3sgrix2l\",\n    \"subreddit\": \"r/nfl\",\n    \"author\": \"MembershipSingle7137\",\n    \"upvotes\": 4719\n  },\n  {\n    \"title\": \"49ers just beat the Bears without Kittle, Williams, Aiyuk, Bosa, or Warner. Shanahan for coach of the year.\",\n    \"link\": \"https://www.reddit.com/r/nfl/comments/1pycyhf/49ers_just_beat_the_bears_without_kittle_williams/\",\n    \"subreddit\": \"r/nfl\",\n    \"author\": \"GreenSnakes_\",\n    \"upvotes\": 3982\n  },\n  {\n    \"title\": \"The New York Jets are one week away from NFL history. Every other team in NFL history has registered at least one interception in a season - they have zero (this year, every other team has at least six). Opposing QBs have 32 TDs and no picks, playing at an MVP level\",\n    \"link\": \"https://www.statmuse.com/nfl/ask/nfl-team-leaders-fewest-interceptions\",\n    \"subreddit\": \"r/nfl\",\n    \"author\": \"Pickleskennedy1\",\n    \"upvotes\": 880\n  },\n  {\n    \"title\": \"[Schefter] With Buffalo’s loss, the Patriots now have clinched the AFC East title.\",\n    \"link\": \"https://www.espn.com/contributor/adam-schefter/c09709bb92a24\",\n    \"subreddit\": \"r/nfl\",\n    \"author\": \"MembershipSingle7137\",\n    \"upvotes\": 7708\n  },\n  {\n    \"title\": \"[Highlight] Caleb Williams takes advantage of free play, fires TD to Colston Loveland\",\n    \"link\": \"https://v.redd.it/qz84xidtz1ag1\",\n    \"subreddit\": \"r/nfl\",\n    \"author\": \"nfl\",\n    \"upvotes\": 5173\n  },\n  {\n    \"title\": \"[Norlander] Crazy stat from NBC/Mike Tirico just now: Tonight's Bears-49ers game is only the second time ever an NFL game has been tied 7-7, 14-14, 21-21, 28-28 and 35-35\",\n    \"link\": \"https://bsky.app/profile/norlander.bsky.social/post/3mb3wfujpsc2m\",\n    \"subreddit\": \"r/nfl\",\n    \"author\": \"TomasRoncero\",\n    \"upvotes\": 3589\n  },\n  {\n    \"title\": \"Brock Purdy since returning from injury: 1454 yards, 16 passing TDs, 3 rushing TDs, 5 INTs, 70.7% completion rate, 111.5 passer rating. The 49ers are 6-0.\",\n    \"link\": \"https://www.reddit.com/r/nfl/comments/1pye0uz/brock_purdy_since_returning_from_injury_1454/\",\n    \"subreddit\": \"r/nfl\",\n    \"author\": \"Dependent-Effect6077\",\n    \"upvotes\": 2415\n  },\n  {\n    \"title\": \"Philip Rivers on the possibility that today was his last NFL game: \\\"If it's the last one, it's the last one. I thought the last one was in Buffalo (in January 2021)… So certainly, if it is, I got three bonus games I never saw coming and couldn’t be more thankful I got the opportunity.”\",\n    \"link\": \"https://www.colts.com/news/if-week-17-was-philip-rivers-final-game-colts-teammates-deeply-appreciate-never-forget-44-year-old-qb-s-willingness-to-help-in-2025\",\n    \"subreddit\": \"r/nfl\",\n    \"author\": \"Goosedukee\",\n    \"upvotes\": 7543\n  },\n  {\n    \"title\": \"[Grosbars] The Los Angeles Rams have been eliminated from NFC West contention\",\n    \"link\": \"https://bsky.app/profile/adamgrosbard.bsky.social/post/3mb3z2xthuc2h\",\n    \"subreddit\": \"r/nfl\",\n    \"author\": \"Joementum2004\",\n    \"upvotes\": 2323\n  },\n  {\n    \"title\": \"[Highlight] Myles Garrett on today's game vs. Pittsburgh: “To an extent, they were more worried about keeping me away from Aaron (Rodgers) than getting the win. That’s what came back to bite them.”\",\n    \"link\": \"https://v.redd.it/s155tzm1x0ag1\",\n    \"subreddit\": \"r/nfl\",\n    \"author\": \"BreakfastTop6899\",\n    \"upvotes\": 7615\n  },\n  {\n    \"title\": \"[Highlight] Philip Rivers nearly kills Josh Hines-Allen with his rocket arm.\",\n    \"link\": \"https://v.redd.it/7qvtj6rum1ag1\",\n    \"subreddit\": \"r/nfl\",\n    \"author\": \"Roselucky777\",\n    \"upvotes\": 4073\n  },\n  {\n    \"title\": \"[Schefter] Baltimore will play at Pittsburgh in Week 18 for the AFC North title.\",\n    \"link\": \"https://www.espn.com/contributor/adam-schefter/ff86680459bc0\",\n    \"subreddit\": \"r/nfl\",\n    \"author\": \"Goosedukee\",\n    \"upvotes\": 9642\n  },\n  {\n    \"title\": \"Tonight, Caleb Williams became the first QB in Bears history to start 16 games in the same season more than once\",\n    \"link\": \"https://www.reddit.com/r/nfl/comments/1pyfijn/tonight_caleb_williams_became_the_first_qb_in/\",\n    \"subreddit\": \"r/nfl\",\n    \"author\": \"ArmadilloAl\",\n    \"upvotes\": 1175\n  },\n  {\n    \"title\": \"Caleb Williams needs 270 yards next week vs Detroit to get 4k yards on the year\",\n    \"link\": \"https://www.reddit.com/r/nfl/comments/1pycpx8/caleb_williams_needs_270_yards_next_week_vs/\",\n    \"subreddit\": \"r/nfl\",\n    \"author\": \"Kewlerd\",\n    \"upvotes\": 1600\n  },\n  {\n    \"title\": \"[Highlight] Eagles stop Bills on two-point conversion for the win\",\n    \"link\": \"https://v.redd.it/vrme3j02g1ag1\",\n    \"subreddit\": \"r/nfl\",\n    \"author\": \"nfl\",\n    \"upvotes\": 3045\n  },\n  {\n    \"title\": \"[Highlight] Brock Purdy throws a pick 6 to TJ Edwards\",\n    \"link\": \"https://v.redd.it/77w4p0oip1ag1\",\n    \"subreddit\": \"r/nfl\",\n    \"author\": \"TomasRoncero\",\n    \"upvotes\": 2504\n  },\n  {\n    \"title\": \"[Kelly] ‘The Steelers wr core is the worst thing I’ve ever seen. With how many WRs that enter the draft each year, and how much talent there is in this day and age, it is roster malpractice to go into a game with MVS, Scotty Miller and Adam Theilen as your WR corp’\",\n    \"link\": \"https://open.spotify.com/episode/6mNJvLk8M6Ltpja9KhfxBX?si=nBEgyBYCRRyWDn2E23MWdw&amp;t=2762&amp;pi=6nCZTe33S0uB3\",\n    \"subreddit\": \"r/nfl\",\n    \"author\": \"stillstillers\",\n    \"upvotes\": 229\n  },\n  {\n    \"title\": \"[Glazer] Communication between Detroit Lions and Seattle Seahawks security last year indicates DK Metcalf asked for that fan to be removed over a very derogatory comment... individuals around him stated and corroborated that the fan was being out of line and had said the derogatory statements.\",\n    \"link\": \"https://www.foxsports.com/stories/nfl/jay-glazer-details-security-report-steelers-wr-dk-metcalf-lions-fan\",\n    \"subreddit\": \"r/nfl\",\n    \"author\": \"awak6n\",\n    \"upvotes\": 8231\n  },\n  {\n    \"title\": \"The Philadelphia Eagles are the only team Josh Allen has not beaten in his career.\",\n    \"link\": \"https://www.statmuse.com/nfl/ask/josh-allen-record-against-every-team-including-playoffs\",\n    \"subreddit\": \"r/nfl\",\n    \"author\": \"WavesAndSaves\",\n    \"upvotes\": 1899\n  },\n  {\n    \"title\": \"[Highlight] Eagles' Fred Johnson went out to start the game with no helmet on\",\n    \"link\": \"https://v.redd.it/tfooyfzdk0ag1\",\n    \"subreddit\": \"r/nfl\",\n    \"author\": \"kansashotwings\",\n    \"upvotes\": 4155\n  },\n  {\n    \"title\": \"[Highlight] Rodgers catches the Browns with 12 men on the field; tells Tomlin he knows what he's doing\",\n    \"link\": \"https://v.redd.it/h7w0j6oovz9g1\",\n    \"subreddit\": \"r/nfl\",\n    \"author\": \"Large_banana_hammock\",\n    \"upvotes\": 5808\n  }\n]",
+      "tool_call_id": "call_8aQwt16N5tdb27mXnrui59zG",
+      "id": "c9101fba-6f52-4e86-8831-aff9d069bbbe",
+      "createdAt": "2025-12-29T16:11:33.934Z"
+    },
+    {
+      "role": "assistant",
+      "content": "It seems there aren't any specific posts about the New York Giants in the latest Reddit discussions. However, you can check out the general NFL subreddit for updates and highlights that may involve the Giants. If you're looking for something specific about the Giants, let me know, and I can help you find it!",
+      "refusal": null,
+      "annotations": [],
+      "id": "e67e6162-c182-470c-bbc4-425b1b9c047a",
+      "createdAt": "2025-12-29T16:11:36.361Z"
+    },
+    {
+      "role": "user",
+      "content": "Anything about New York teams  on Reddit?",
+      "id": "1e7f4027-cdfc-4766-867b-77f3ca333cb4",
+      "createdAt": "2025-12-29T16:12:02.283Z"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_qQ6BTurhqvsCvxDzgKwTusdi",
+          "type": "function",
+          "function": {
+            "name": "reddit",
+            "arguments": "{}"
+          }
+        }
+      ],
+      "refusal": null,
+      "annotations": [],
+      "id": "d31f6d9b-4464-445b-92d6-3a5f100ac49c",
+      "createdAt": "2025-12-29T16:12:03.201Z"
+    },
+    {
+      "role": "tool",
+      "content": "[\n  {\n    \"title\": \"Weekend Wrapup\",\n    \"link\": \"https://www.reddit.com/r/nfl/comments/1pyog5b/weekend_wrapup/\",\n    \"subreddit\": \"r/nfl\",\n    \"author\": \"AutoModerator\",\n    \"upvotes\": 13\n  },\n  {\n    \"title\": \"[Highlight] CHI vs SF - Mike Tirco calls out Cris Collinsworth for bringing up Patrick Mahomes\",\n    \"link\": \"https://v.redd.it/5zmoh5lsc2ag1\",\n    \"subreddit\": \"r/nfl\",\n    \"author\": \"Fusir\",\n    \"upvotes\": 11327\n  },\n  {\n    \"title\": \"[Highlight] Niners win on last second stop\",\n    \"link\": \"https://v.redd.it/mtz5x4z8n2ag1\",\n    \"subreddit\": \"r/nfl\",\n    \"author\": \"nfl\",\n    \"upvotes\": 5333\n  },\n  {\n    \"title\": \"[Highlight] Purdy scrambles forever for a Houdini TD\",\n    \"link\": \"https://v.redd.it/vfzpkpmvb2ag1\",\n    \"subreddit\": \"r/nfl\",\n    \"author\": \"Large_banana_hammock\",\n    \"upvotes\": 6295\n  },\n  {\n    \"title\": \"[Schefter] 49ers now are one win away from becoming the NFC’s No. 1 seed.\",\n    \"link\": \"https://bsky.app/profile/nflnewsposter.bsky.social/post/3mb3z3sgrix2l\",\n    \"subreddit\": \"r/nfl\",\n    \"author\": \"MembershipSingle7137\",\n    \"upvotes\": 4718\n  },\n  {\n    \"title\": \"49ers just beat the Bears without Kittle, Williams, Aiyuk, Bosa, or Warner. Shanahan for coach of the year.\",\n    \"link\": \"https://www.reddit.com/r/nfl/comments/1pycyhf/49ers_just_beat_the_bears_without_kittle_williams/\",\n    \"subreddit\": \"r/nfl\",\n    \"author\": \"GreenSnakes_\",\n    \"upvotes\": 3976\n  },\n  {\n    \"title\": \"The New York Jets are one week away from NFL history. Every other team in NFL history has registered at least one interception in a season - they have zero (this year, every other team has at least six). Opposing QBs have 32 TDs and no picks, playing at an MVP level\",\n    \"link\": \"https://www.statmuse.com/nfl/ask/nfl-team-leaders-fewest-interceptions\",\n    \"subreddit\": \"r/nfl\",\n    \"author\": \"Pickleskennedy1\",\n    \"upvotes\": 890\n  },\n  {\n    \"title\": \"[Schefter] With Buffalo’s loss, the Patriots now have clinched the AFC East title.\",\n    \"link\": \"https://www.espn.com/contributor/adam-schefter/c09709bb92a24\",\n    \"subreddit\": \"r/nfl\",\n    \"author\": \"MembershipSingle7137\",\n    \"upvotes\": 7712\n  },\n  {\n    \"title\": \"[Highlight] Caleb Williams takes advantage of free play, fires TD to Colston Loveland\",\n    \"link\": \"https://v.redd.it/qz84xidtz1ag1\",\n    \"subreddit\": \"r/nfl\",\n    \"author\": \"nfl\",\n    \"upvotes\": 5172\n  },\n  {\n    \"title\": \"[Norlander] Crazy stat from NBC/Mike Tirico just now: Tonight's Bears-49ers game is only the second time ever an NFL game has been tied 7-7, 14-14, 21-21, 28-28 and 35-35\",\n    \"link\": \"https://bsky.app/profile/norlander.bsky.social/post/3mb3wfujpsc2m\",\n    \"subreddit\": \"r/nfl\",\n    \"author\": \"TomasRoncero\",\n    \"upvotes\": 3586\n  },\n  {\n    \"title\": \"Brock Purdy since returning from injury: 1454 yards, 16 passing TDs, 3 rushing TDs, 5 INTs, 70.7% completion rate, 111.5 passer rating. The 49ers are 6-0.\",\n    \"link\": \"https://www.reddit.com/r/nfl/comments/1pye0uz/brock_purdy_since_returning_from_injury_1454/\",\n    \"subreddit\": \"r/nfl\",\n    \"author\": \"Dependent-Effect6077\",\n    \"upvotes\": 2416\n  },\n  {\n    \"title\": \"Philip Rivers on the possibility that today was his last NFL game: \\\"If it's the last one, it's the last one. I thought the last one was in Buffalo (in January 2021)… So certainly, if it is, I got three bonus games I never saw coming and couldn’t be more thankful I got the opportunity.”\",\n    \"link\": \"https://www.colts.com/news/if-week-17-was-philip-rivers-final-game-colts-teammates-deeply-appreciate-never-forget-44-year-old-qb-s-willingness-to-help-in-2025\",\n    \"subreddit\": \"r/nfl\",\n    \"author\": \"Goosedukee\",\n    \"upvotes\": 7544\n  },\n  {\n    \"title\": \"[Grosbars] The Los Angeles Rams have been eliminated from NFC West contention\",\n    \"link\": \"https://bsky.app/profile/adamgrosbard.bsky.social/post/3mb3z2xthuc2h\",\n    \"subreddit\": \"r/nfl\",\n    \"author\": \"Joementum2004\",\n    \"upvotes\": 2327\n  },\n  {\n    \"title\": \"[Highlight] Myles Garrett on today's game vs. Pittsburgh: “To an extent, they were more worried about keeping me away from Aaron (Rodgers) than getting the win. That’s what came back to bite them.”\",\n    \"link\": \"https://v.redd.it/s155tzm1x0ag1\",\n    \"subreddit\": \"r/nfl\",\n    \"author\": \"BreakfastTop6899\",\n    \"upvotes\": 7616\n  },\n  {\n    \"title\": \"[Highlight] Philip Rivers nearly kills Josh Hines-Allen with his rocket arm.\",\n    \"link\": \"https://v.redd.it/7qvtj6rum1ag1\",\n    \"subreddit\": \"r/nfl\",\n    \"author\": \"Roselucky777\",\n    \"upvotes\": 4082\n  },\n  {\n    \"title\": \"[Schefter] Baltimore will play at Pittsburgh in Week 18 for the AFC North title.\",\n    \"link\": \"https://www.espn.com/contributor/adam-schefter/ff86680459bc0\",\n    \"subreddit\": \"r/nfl\",\n    \"author\": \"Goosedukee\",\n    \"upvotes\": 9643\n  },\n  {\n    \"title\": \"Tonight, Caleb Williams became the first QB in Bears history to start 16 games in the same season more than once\",\n    \"link\": \"https://www.reddit.com/r/nfl/comments/1pyfijn/tonight_caleb_williams_became_the_first_qb_in/\",\n    \"subreddit\": \"r/nfl\",\n    \"author\": \"ArmadilloAl\",\n    \"upvotes\": 1178\n  },\n  {\n    \"title\": \"Caleb Williams needs 270 yards next week vs Detroit to get 4k yards on the year\",\n    \"link\": \"https://www.reddit.com/r/nfl/comments/1pycpx8/caleb_williams_needs_270_yards_next_week_vs/\",\n    \"subreddit\": \"r/nfl\",\n    \"author\": \"Kewlerd\",\n    \"upvotes\": 1599\n  },\n  {\n    \"title\": \"[Highlight] Eagles stop Bills on two-point conversion for the win\",\n    \"link\": \"https://v.redd.it/vrme3j02g1ag1\",\n    \"subreddit\": \"r/nfl\",\n    \"author\": \"nfl\",\n    \"upvotes\": 3050\n  },\n  {\n    \"title\": \"[Highlight] Brock Purdy throws a pick 6 to TJ Edwards\",\n    \"link\": \"https://v.redd.it/77w4p0oip1ag1\",\n    \"subreddit\": \"r/nfl\",\n    \"author\": \"TomasRoncero\",\n    \"upvotes\": 2506\n  },\n  {\n    \"title\": \"[Kelly] ‘The Steelers wr core is the worst thing I’ve ever seen. With how many WRs that enter the draft each year, and how much talent there is in this day and age, it is roster malpractice to go into a game with MVS, Scotty Miller and Adam Theilen as your WR corp’\",\n    \"link\": \"https://open.spotify.com/episode/6mNJvLk8M6Ltpja9KhfxBX?si=nBEgyBYCRRyWDn2E23MWdw&amp;t=2762&amp;pi=6nCZTe33S0uB3\",\n    \"subreddit\": \"r/nfl\",\n    \"author\": \"stillstillers\",\n    \"upvotes\": 234\n  },\n  {\n    \"title\": \"[Glazer] Communication between Detroit Lions and Seattle Seahawks security last year indicates DK Metcalf asked for that fan to be removed over a very derogatory comment... individuals around him stated and corroborated that the fan was being out of line and had said the derogatory statements.\",\n    \"link\": \"https://www.foxsports.com/stories/nfl/jay-glazer-details-security-report-steelers-wr-dk-metcalf-lions-fan\",\n    \"subreddit\": \"r/nfl\",\n    \"author\": \"awak6n\",\n    \"upvotes\": 8226\n  },\n  {\n    \"title\": \"The Philadelphia Eagles are the only team Josh Allen has not beaten in his career.\",\n    \"link\": \"https://www.statmuse.com/nfl/ask/josh-allen-record-against-every-team-including-playoffs\",\n    \"subreddit\": \"r/nfl\",\n    \"author\": \"WavesAndSaves\",\n    \"upvotes\": 1894\n  },\n  {\n    \"title\": \"[Highlight] Eagles' Fred Johnson went out to start the game with no helmet on\",\n    \"link\": \"https://v.redd.it/tfooyfzdk0ag1\",\n    \"subreddit\": \"r/nfl\",\n    \"author\": \"kansashotwings\",\n    \"upvotes\": 4153\n  },\n  {\n    \"title\": \"[Highlight] Rodgers catches the Browns with 12 men on the field; tells Tomlin he knows what he's doing\",\n    \"link\": \"https://v.redd.it/h7w0j6oovz9g1\",\n    \"subreddit\": \"r/nfl\",\n    \"author\": \"Large_banana_hammock\",\n    \"upvotes\": 5806\n  }\n]",
+      "tool_call_id": "call_qQ6BTurhqvsCvxDzgKwTusdi",
+      "id": "2678e285-813f-4480-8715-cb88ce36449f",
+      "createdAt": "2025-12-29T16:12:03.839Z"
+    },
+    {
+      "role": "assistant",
+      "content": "Here are some recent Reddit posts related to New York teams:\n\n1. **[The New York Jets are one week away from NFL history. Every other team in NFL history has registered at least one interception in a season - they have zero (this year, every other team has at least six). Opposing QBs have 32 TDs and no picks, playing at an MVP level.](https://www.statmuse.com/nfl/ask/nfl-team-leaders-fewest-interceptions)** - Upvotes: 890\n\n2. **[Weekend Wrapup](https://www.reddit.com/r/nfl/comments/1pyog5b/weekend_wrapup/)** - General discussion that may include New York teams - Upvotes: 13\n\n3. **[Highlight] Eagles stop Bills on two-point conversion for the win](https://v.redd.it/vrme3j02g1ag1)** - This may involve the New York teams as the Bills are a division rival - Upvotes: 3,050\n\nThese posts may provide insights or discussions involving New York teams, particularly the Jets and the Bills. If you're looking for something specific, let me know!",
+      "refusal": null,
+      "annotations": [],
+      "id": "8d92de06-2487-47c9-9744-a9c9c44b5ef0",
+      "createdAt": "2025-12-29T16:12:09.569Z"
+    },
+    {
+      "role": "user",
+      "content": "I drink RedBulls every day. Reddit",
+      "id": "936ae0b2-1438-4206-8c46-3d2a2c5530aa",
+      "createdAt": "2025-12-29T16:27:08.779Z"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_moeHQjeWXgPkACpFIltM7qeU",
+          "type": "function",
+          "function": {
+            "name": "reddit",
+            "arguments": "{}"
+          }
+        }
+      ],
+      "refusal": null,
+      "annotations": [],
+      "id": "c16ecde6-2556-48a3-8a30-fa50ac5f2b1c",
+      "createdAt": "2025-12-29T16:27:10.154Z"
+    },
+    {
+      "role": "tool",
+      "content": "[\n  {\n    \"title\": \"/r/aww is going OC-only\",\n    \"link\": \"https://www.reddit.com/r/aww/comments/171dxph/raww_is_going_oconly/\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"AutoModerator\",\n    \"upvotes\": 2492\n  },\n  {\n    \"title\": \"Shelter said she wasn't a cuddler, she disagrees\",\n    \"link\": \"https://i.redd.it/zezvzj68l2ag1.jpeg\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"Chc36\",\n    \"upvotes\": 13841\n  },\n  {\n    \"title\": \"My cutie\",\n    \"link\": \"https://i.redd.it/8oi8251g64ag1.jpeg\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"Dreamy_Shadows\",\n    \"upvotes\": 1574\n  },\n  {\n    \"title\": \"It’s the best Xmas gift I ever received 🥹 Thanks to my Parents 🫶🏻\",\n    \"link\": \"https://i.redd.it/t4mh6qzuq5ag1.jpeg\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"Rosa_Lirosa\",\n    \"upvotes\": 549\n  },\n  {\n    \"title\": \"Just a couple of illegal smols.\",\n    \"link\": \"https://i.redd.it/qs94t8br84ag1.jpeg\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"hoothin\",\n    \"upvotes\": 1090\n  },\n  {\n    \"title\": \"My pup and housemate's cat cuddling\",\n    \"link\": \"https://i.imgur.com/XSR6EeQ.jpeg\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"OminousHum\",\n    \"upvotes\": 3909\n  },\n  {\n    \"title\": \"I have to gain his trust again after I dared to be away for one weekend.\",\n    \"link\": \"https://i.redd.it/cjwoe744o1ag1.jpeg\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"zzabe\",\n    \"upvotes\": 3245\n  },\n  {\n    \"title\": \"That Golden Retriever Smile That Fixes Literally Everything\",\n    \"link\": \"https://i.redd.it/yhxh2glb6z9g1.jpeg\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"Mab_12\",\n    \"upvotes\": 17275\n  },\n  {\n    \"title\": \"My cats reluctantly spreading holiday cheer 🎄❤️\",\n    \"link\": \"https://i.redd.it/mrktagqbd5ag1.png\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"Low-Tackle7606\",\n    \"upvotes\": 228\n  },\n  {\n    \"title\": \"My bed has been stolen by a cloud\",\n    \"link\": \"https://www.reddit.com/gallery/1pyhenj\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"Arafat_h_saymon\",\n    \"upvotes\": 536\n  },\n  {\n    \"title\": \"sirius lookin handsome at golden hour\",\n    \"link\": \"https://i.redd.it/5jstikucf0ag1.png\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"iammatt666\",\n    \"upvotes\": 4711\n  },\n  {\n    \"title\": \"Look at this mini donk floofiness 🥰\",\n    \"link\": \"https://i.redd.it/vurzx6a2j4ag1.jpeg\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"snean3\",\n    \"upvotes\": 343\n  },\n  {\n    \"title\": \"Outside Cat Coming In On A Cold Winter's Day\",\n    \"link\": \"https://v.redd.it/3sheqv5yi0ag1\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"KittyFlynn\",\n    \"upvotes\": 3619\n  },\n  {\n    \"title\": \"Ellie is pleased with this offering 🩷\",\n    \"link\": \"https://v.redd.it/fmqh17sge5ag1\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"ProudnotLoud\",\n    \"upvotes\": 157\n  },\n  {\n    \"title\": \"[oc] When the water’s so clear, you can see her little paws paddling\",\n    \"link\": \"https://v.redd.it/wx01iam145ag1\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"_SWANS_CAN_BE_GAY_\",\n    \"upvotes\": 184\n  },\n  {\n    \"title\": \"He fell asleep hugging his rubber chicken and I can't handle it 🥹​\",\n    \"link\": \"https://i.redd.it/5vlqpye1lz9g1.jpeg\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"Tr33b00R\",\n    \"upvotes\": 5485\n  },\n  {\n    \"title\": \"My daughter's yearly reunion with this cute little critter\",\n    \"link\": \"https://i.redd.it/y7gfuz8i62ag1.jpeg\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"Tooleater\",\n    \"upvotes\": 1038\n  },\n  {\n    \"title\": \"This guy was in my parents balcony\",\n    \"link\": \"https://i.redd.it/4fkgvys4x4ag1.jpeg\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"hvera51\",\n    \"upvotes\": 145\n  },\n  {\n    \"title\": \"HELLO\",\n    \"link\": \"https://i.redd.it/fe4o7zc5d5ag1.jpeg\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"user_no-8848\",\n    \"upvotes\": 104\n  },\n  {\n    \"title\": \"Momma and baby cat after adoption vs. momma and adult baby cat, a year latter.\",\n    \"link\": \"https://www.reddit.com/gallery/1py6g3t\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"Dramatic_Olive3110\",\n    \"upvotes\": 1276\n  },\n  {\n    \"title\": \"I was productive today… until this happened.\",\n    \"link\": \"https://i.redd.it/3u0oghdyz5ag1.jpeg\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"Leather_Sherbet_1695\",\n    \"upvotes\": 63\n  },\n  {\n    \"title\": \"Best of friends\",\n    \"link\": \"https://i.redd.it/biy6lfpwr5ag1.jpeg\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"porcelainsucubuss\",\n    \"upvotes\": 68\n  },\n  {\n    \"title\": \"My babie\",\n    \"link\": \"https://www.reddit.com/gallery/1py8qqw\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"caffeineaddictte\",\n    \"upvotes\": 593\n  },\n  {\n    \"title\": \"Someone was grumpy this morning lol\",\n    \"link\": \"https://i.redd.it/4bshk8q1j2ag1.jpeg\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"Z-Butta\",\n    \"upvotes\": 337\n  },\n  {\n    \"title\": \"27th was my Cakeday, so here's Mo regretting that he allowed me to put a Christmas sweater on him\",\n    \"link\": \"https://v.redd.it/gkkq67cjx0ag1\",\n    \"subreddit\": \"r/aww\",\n    \"author\": \"oh_bruddah\",\n    \"upvotes\": 827\n  }\n]",
+      "tool_call_id": "call_moeHQjeWXgPkACpFIltM7qeU",
+      "id": "417809f1-614d-4321-bfc0-ccc18fbf03d0",
+      "createdAt": "2025-12-29T16:27:10.902Z"
+    },
+    {
+      "role": "assistant",
+      "content": "It seems there are no specific posts about drinking Red Bull on Reddit at the moment. However, you might find discussions about energy drinks in general or personal experiences related to them in various subreddits. If you're looking for something specific about Red Bull or energy drinks, let me know, and I can help you find it!",
+      "refusal": null,
+      "annotations": [],
+      "id": "0d3a0892-7a96-4151-8e5c-ecd2930b466b",
+      "createdAt": "2025-12-29T16:27:12.504Z"
+    },
+    {
+      "role": "user",
+      "content": "I drink RedBulls every day. Reddit",
+      "id": "3c2ef208-c716-4a9c-9032-c183de37ed13",
+      "createdAt": "2025-12-29T16:30:07.979Z"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_cNUVGvzSeOdJjepd8DUrcvaQ",
+          "type": "function",
+          "function": {
+            "name": "reddit",
+            "arguments": "{}"
+          }
+        }
+      ],
+      "refusal": null,
+      "annotations": [],
+      "id": "6201e598-2482-40e2-9314-b9ed49209f9a",
+      "createdAt": "2025-12-29T16:30:08.841Z"
+    },
+    {
+      "role": "tool",
+      "content": "[\n  {\n    \"title\": \"Boy, 11, Dies After Severe Case of the Flu: ‘Jace Never Even Got to Open His Christmas Gifts’\",\n    \"link\": \"https://people.com/alabama-boy-11-dies-after-severe-case-of-the-flu-jace-watkins-11876722\",\n    \"subreddit\": \"r/Health\",\n    \"author\": \"User86294623\",\n    \"upvotes\": 505\n  },\n  {\n    \"title\": \"The year measles came back\",\n    \"link\": \"https://www.vox.com/health/473339/measles-outbreaks-2025-rfk-jr-south-carolina-arizona\",\n    \"subreddit\": \"r/Health\",\n    \"author\": \"monsteroftheweek13\",\n    \"upvotes\": 12\n  },\n  {\n    \"title\": \"162,000 chickens culled after bird flu outbreak at Deurne broiler farm\",\n    \"link\": \"https://nltimes.nl/2025/12/28/162000-chickens-culled-bird-flu-outbreak-deurne-broiler-farm\",\n    \"subreddit\": \"r/Health\",\n    \"author\": \"boppinmule\",\n    \"upvotes\": 17\n  },\n  {\n    \"title\": \"Why Did Trump Designate Fentanyl a Weapon of Mass Destruction ?\",\n    \"link\": \"https://thewire.in/world/why-did-trump-designate-fentanyl-a-weapon-of-mass-destruction\",\n    \"subreddit\": \"r/Health\",\n    \"author\": \"Cybertronian1512\",\n    \"upvotes\": 158\n  },\n  {\n    \"title\": \"Suffering from thyroid problems? This organ may be to blame\",\n    \"link\": \"https://economictimes.indiatimes.com/magazines/panache/suffering-from-thyroid-problems-this-organ-may-be-to-blame-says-doctor/articleshow/126215740.cms\",\n    \"subreddit\": \"r/Health\",\n    \"author\": \"Cybertronian1512\",\n    \"upvotes\": 17\n  },\n  {\n    \"title\": \"This is ‘brain rot,’ a slang term with something to it\",\n    \"link\": \"https://www.cnn.com/2025/12/27/health/brain-rot-social-media-wellness?utm_medium=social&amp;utm_campaign=missions&amp;utm_source=reddit\",\n    \"subreddit\": \"r/Health\",\n    \"author\": \"cnn\",\n    \"upvotes\": 88\n  },\n  {\n    \"title\": \"Weight-loss pill approval set to accelerate food industry product overhauls - \\\"We are seeing people cut (back) specifically on salty snacks, liquor, soda, drinks, and bakery snacks, and more focused on protein and fiber\\\"\",\n    \"link\": \"https://www.reuters.com/business/healthcare-pharmaceuticals/weight-loss-pill-approval-set-accelerate-food-industry-product-overhauls-2025-12-24/\",\n    \"subreddit\": \"r/Health\",\n    \"author\": \"castironglider\",\n    \"upvotes\": 181\n  },\n  {\n    \"title\": \"Most Dutch goat farms too close to schools and care facilities, raising health risks\",\n    \"link\": \"https://nltimes.nl/2025/12/27/dutch-goat-farms-close-schools-care-facilities-raising-health-risks\",\n    \"subreddit\": \"r/Health\",\n    \"author\": \"boppinmule\",\n    \"upvotes\": 19\n  },\n  {\n    \"title\": \"Federal court says Social Security can’t dismiss complaints of fibromyalgia sufferer. Circuit court rules that subjective testimony must be considered in cases with disabilities that can’t be detected by objective medical tests\",\n    \"link\": \"https://marylandmatters.org/2025/12/24/federal-court-says-social-security-cant-dismiss-complaints-of-fibromyalgia-sufferers/\",\n    \"subreddit\": \"r/Health\",\n    \"author\": \"undercurrents\",\n    \"upvotes\": 201\n  },\n  {\n    \"title\": \"As tetanus vaccination rates decline, doctors worry about rising case numbers\",\n    \"link\": \"https://www.nbcnews.com/health/kids-health/tetanus-cases-rise-vaccine-rates-down-dtap-children-shots-rcna244685\",\n    \"subreddit\": \"r/Health\",\n    \"author\": \"nbcnews\",\n    \"upvotes\": 166\n  },\n  {\n    \"title\": \"Milwaukee clears its public schools of lead paint hazards after 10 months of work\",\n    \"link\": \"https://www.cnn.com/2025/12/26/health/lead-milwaukee-public-schools?utm_medium=social&amp;utm_campaign=missions&amp;utm_source=reddit\",\n    \"subreddit\": \"r/Health\",\n    \"author\": \"cnn\",\n    \"upvotes\": 51\n  },\n  {\n    \"title\": \"Do You Have 'Ghost Poops'? Here's What That Says About Your Health.\",\n    \"link\": \"https://ca.style.yahoo.com/ghost-poops-heres-says-health-120018503.html\",\n    \"subreddit\": \"r/Health\",\n    \"author\": \"Several-Membership91\",\n    \"upvotes\": 475\n  },\n  {\n    \"title\": \"Flu cases fall further, but chickenpox is quickly rising, health officials say\",\n    \"link\": \"https://nltimes.nl/2025/12/25/flu-cases-fall-chickenpox-quickly-rising-health-officials-say\",\n    \"subreddit\": \"r/Health\",\n    \"author\": \"boppinmule\",\n    \"upvotes\": 55\n  },\n  {\n    \"title\": \"Pediatricians sue Trump administration to halt a nearly $12 million cut in federal grants\",\n    \"link\": \"https://www.cnn.com/2025/12/24/health/pediatrics-lawsuit-trump-hhs-grants?utm_medium=social&amp;utm_campaign=missions&amp;utm_source=reddit\",\n    \"subreddit\": \"r/Health\",\n    \"author\": \"cnn\",\n    \"upvotes\": 374\n  },\n  {\n    \"title\": \"A holiday tradition banned: Why your cheese board looks different this year\",\n    \"link\": \"http://thestar.com/business/a-holiday-tradition-banned-why-your-cheese-board-looks-different-this-year/article_5f2b58f7-d8d3-433e-9f4a-db0f00e60df1.html\",\n    \"subreddit\": \"r/Health\",\n    \"author\": \"toronto_star\",\n    \"upvotes\": 29\n  },\n  {\n    \"title\": \"Reported use of most drugs remains low among U.S. teens\",\n    \"link\": \"https://www.nih.gov/news-events/news-releases/reported-use-most-drugs-remains-low-among-us-teens\",\n    \"subreddit\": \"r/Health\",\n    \"author\": \"thinkB4WeSpeak\",\n    \"upvotes\": 57\n  },\n  {\n    \"title\": \"At 44, I Received A Cancer Diagnosis I Never Saw Coming. Too Many Young People Will Get The Same One.\",\n    \"link\": \"https://www.huffpost.com/entry/colon-cancer-young-people-government-research_n_694572cae4b00a59b4a6611e?utm_medium=Social&amp;utm_source=reddit&amp;utm_campaign=us_main\",\n    \"subreddit\": \"r/Health\",\n    \"author\": \"huffpost\",\n    \"upvotes\": 744\n  },\n  {\n    \"title\": \"RFK’s New Infatuation With a Danish Model: How MAGA fell in love with a tiny, socialist Scandinavian nation—as long as it’s just about vaccine recommendations.\",\n    \"link\": \"https://www.thebulwark.com/p/robert-kennedy-rfk-jr-denmark-vaccines-hhs-maga-trump\",\n    \"subreddit\": \"r/Health\",\n    \"author\": \"BulwarkOnline\",\n    \"upvotes\": 114\n  },\n  {\n    \"title\": \"The Next Ozempic Is Already Being Sold Underground\",\n    \"link\": \"https://www.theatlantic.com/health/2025/12/retatrutide-underground-market/685400/?utm_source=reddit&amp;utm_campaign=the-atlantic&amp;utm_medium=social&amp;utm_content=edit-promo\",\n    \"subreddit\": \"r/Health\",\n    \"author\": \"theatlantic\",\n    \"upvotes\": 312\n  },\n  {\n    \"title\": \"FDA approves pill version of Novo Nordisk’s Wegovy, possibly widening access\",\n    \"link\": \"https://www.statnews.com/2025/12/22/wegovy-pill-oral-weight-loss-treatment-approved/\",\n    \"subreddit\": \"r/Health\",\n    \"author\": \"statnews\",\n    \"upvotes\": 45\n  },\n  {\n    \"title\": \"Cannabis reclassification could 'open the floodgates' for research, scientists say\",\n    \"link\": \"https://www.nbcnews.com/health/health-news/medical-marijuana-research-open-floodgates-cannabis-reclassification-rcna249811\",\n    \"subreddit\": \"r/Health\",\n    \"author\": \"nbcnews\",\n    \"upvotes\": 35\n  },\n  {\n    \"title\": \"Trump’s Assault on Health Care, Seen From a Country That Does Health Care Better\",\n    \"link\": \"https://www.thebulwark.com/p/trump-assault-on-health-care-seen-from-japan-universal\",\n    \"subreddit\": \"r/Health\",\n    \"author\": \"BulwarkOnline\",\n    \"upvotes\": 178\n  },\n  {\n    \"title\": \"This year's flu is packing a punch. How hospitals are trying to deal with surging cases\",\n    \"link\": \"https://www.cbc.ca/news/health/canada-flu-season-hospitals-9.7025077\",\n    \"subreddit\": \"r/Health\",\n    \"author\": \"boppinmule\",\n    \"upvotes\": 43\n  },\n  {\n    \"title\": \"A study published in Nature Microbiology now shows for the first time that Candida auris uses a CO₂-based metabolic strategy to survive in the nutrient-poor conditions of the skin and to better tolerate antifungal therapies – especially amphotericin B (AMB).\",\n    \"link\": \"https://www.meduniwien.ac.at/web/en/ueber-uns/news/2025/news-in-december-2025/new-findings-on-candida-auris-open-up-potential-targets-for-future-therapies/\",\n    \"subreddit\": \"r/Health\",\n    \"author\": \"Oblique4119375\",\n    \"upvotes\": 11\n  },\n  {\n    \"title\": \"Type 5 Diabetes Has Officially Been Recognized — Here's How It Differs From Other Types\",\n    \"link\": \"https://www.huffpost.com/entry/type-5-diabetes-signs-symptoms_l_69406860e4b043da371d2a3a?utm_medium=Social&amp;utm_source=reddit&amp;utm_campaign=us_main\",\n    \"subreddit\": \"r/Health\",\n    \"author\": \"huffpost\",\n    \"upvotes\": 621\n  }\n]",
+      "tool_call_id": "call_cNUVGvzSeOdJjepd8DUrcvaQ",
+      "id": "93fa7f0a-ef22-4628-80a7-88d6e2cff023",
+      "createdAt": "2025-12-29T16:30:10.711Z"
+    },
+    {
+      "role": "assistant",
+      "content": "It seems there are no specific posts about drinking Red Bull on Reddit at the moment. However, you might find discussions about energy drinks, their effects, and personal experiences in various health-related subreddits. If you're looking for something specific about Red Bull or energy drinks, let me know, and I can help you find it!",
+      "refusal": null,
+      "annotations": [],
+      "id": "cb479255-73ed-4b5e-b5cc-88f3369d590b",
+      "createdAt": "2025-12-29T16:30:12.511Z"
+    },
+    {
+      "role": "user",
+      "content": "was there a study about age cutoffs in hockey?",
+      "id": "79b4f290-9477-4929-9854-21bb2bf2011e",
+      "createdAt": "2025-12-29T16:30:47.798Z"
+    },
+    {
+      "role": "user",
+      "content": "Tell me a Dad joke\n'\n",
+      "id": "0f5ad720-96e8-409e-ba26-fbb2ade67744",
+      "createdAt": "2025-12-29T16:31:46.235Z"
+    },
+    {
+      "role": "user",
+      "content": "Tell me a Dad joke\n'\n",
+      "id": "a5e4af4f-3296-4b9a-a6fe-2ce2548845aa",
+      "createdAt": "2025-12-29T16:47:54.030Z"
     }
   ]
 }
