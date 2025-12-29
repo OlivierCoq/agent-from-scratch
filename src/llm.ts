@@ -1,23 +1,34 @@
+import { zodFunction } from 'openai/helpers/zod'
+import { z } from 'zod'
 import type { AIMessage } from '../types'
 import { openai } from './ai'
-import { zodFunction } from 'openai/helpers/zod'
+import { systemPrompt } from './systemPrompt'
 
 export const runLLM = async ({
+  model = 'gpt-4o-mini',
   messages,
+  temperature = 0.1,
   tools,
 }: {
   messages: AIMessage[]
-  tools: any[]
+  temperature?: number
+  model?: string
+  tools?: { name: string; parameters: z.AnyZodObject }[]
 }) => {
-  const formattedTools = tools.map(zodFunction)
-
+  const formattedTools = tools?.map((tool) => zodFunction(tool))
   const response = await openai.chat.completions.create({
-    model: 'gpt-4o-mini',
-    temperature: 0.1,
-    messages,
+    model,
+    messages: [
+      {
+        role: 'system',
+        content: systemPrompt,
+      },
+      ...messages,
+    ],
+    temperature,
     tools: formattedTools,
     tool_choice: 'auto',
-    parallel_tool_calls: false, // Disable parallel tool calls. Set to true to enable parallel execution of tools (yucky for stateful tools).
+    parallel_tool_calls: false, // We keep this false because we want to handle tool calls sequentially
   })
 
   return response.choices[0].message
